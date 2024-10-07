@@ -2,7 +2,7 @@
 
 ## UNC AI/ML Bootcamp June 2024 Cohort
 
-This project uses a public test dataset to create a machine learning (ML) model that can predict how likely a flight is to be delayed.
+This project uses a public test dataset to create a machine learning (ML) model to predict how likely a flight will be delayed.
 
 This dataset is from Kaggle and includes 539,383 datapoints from 40 United States international airports: [Airlines Dataset to predict a delay](https://www.kaggle.com/datasets/jimschacko/airlines-dataset-to-predict-a-delay).
 
@@ -33,13 +33,13 @@ This project includes models that use these algorithms.
 
 ## Running this Project
 
-All code is authored in Python within Jupyter Notebooks. You will need to be able to run the notebooks locally with an IDE like VSCode or with Google Collab.
+All code is authored in Python within Jupyter Notebooks. You must run the notebooks locally with an IDE like VSCode or Google Collab.
 
 ## Findings and Additional Analysis
 
-At present, the Random Forest model is most accurate, with an accuracy score of 66.2%. XGBoost came in at a close second at 65.7%.
+Currently, the Random Forest model is the most accurate, with an accuracy score of 66.2%. XGBoost came in at a close second at 65.6%.
 
-While these accuracies are decent, the project team would like to further refine the models. This could include further refinement on the feature engineering and hyperparameter tuning.
+While these accuracies are decent, the project team would like to refine the models further using feature engineering and hyperparameter tuning techniques.
 
 ## Dataset Documentation
 
@@ -49,23 +49,23 @@ The `Delay` column is our target variable.
 
 ### Source Columns
 
-* id (int): The index, included in the source dataset. We'll drop this since we want to use the index we define in our DataFrame.
-* Airline (str): 2-letter code that corresponds to an airline name
+* id (int): The index included in the source dataset. We'll drop this since we want to use the index we define in our DataFrame.
+* Airline (str): 2-letter code corresponding to an airline name
 * Flight (str): The flight ID
-* AirportFrom (str): 3-letter code that corresponds to an airport name. Where the flight is going.
-* AirportTo (str): 3-letter code that corresponds to an airport name. Where the flight is going.
-* DayOfWeek (int): The numberic day of the week that the flight took place on
+* AirportFrom (str): 3-letter code corresponding to an airport name. Where the flight is going.
+* AirportTo (str): 3-letter code corresponding to an airport name. Where the flight is going.
+* DayOfWeek (int): The numeric day of the week that the flight took place on
 * Time (int): departure time measured in minutes from midnight (the range is 10-1439)
 * Length (int): Duration of the flight in minutes
 * Delay (int): Whether the flight was delayed or not. 0 or 1 value.
 
 ### Processed Columns
 
-As part of data engineering, we encoded the columns and added some addition features.
+As part of data engineering, we encoded the columns and added some features.
 
-Encoding. We encoded the `Time` and `Length` columns by ensuring they are integers and dividing them by 60 so that they represent hours.
+Encoding. We encoded the `Time` and `Length` columns by ensuring they are integers and dividing them by 60 to represent hours.
 
-New features. We used the encoded Time and Length columns to create features to track when a flight departed and when it arrived at its destination. We created groups for departures and arrivals as well.
+New features. We used the encoded Time and Length columns to create features to track when a flight departed and when it arrived at its destination. We made groups for departures and arrivals as well.
 
 ### Airline Codes
 
