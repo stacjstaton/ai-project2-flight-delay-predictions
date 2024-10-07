@@ -129,16 +129,23 @@ Used RandomUndersampling because of the imbalance of our dataset.
 
 # Model Optimization With PCA
 
-1. Scale Data Using StandardScaler()
+1. Scaled Only Using PCA
 2. Apply PCA To Reduce To Two Dimensions
 3. Calculate the WCSS
 4. Silhouette Analysis
 
 # Hyperparameter Tuning
 
-1. Tune init method using kmeans ++
-2. Optimize max_iter and Set n_init
-3. Use MiniBatchKMeans
-4. Evaluate & Interpret Results
+1. Create function to perform and print silhouette and calinski score
+2. Scale Data using PCA
+3. Create KMeans Model and Optiize (kmean ++, max_iter=300, n_init = 2)
+4. 3. Create KMeans Model and Optiize (kmean ++, max_iter=1000, n_init = 2)
+5. Evaluate & Interpret Results
+   | Model | Result/Score |
+   | ----------- | ----------- |
+   | Silhouette - _KMeans ++_ | **0.57** |
+   | Silhouette - _MiniBatchKMeans_ | **0.57** |
+   | Calinski-Harabasz - _KMeans ++_ | **264672.25** |
+   | Calinski-Harabasz - _MiniBatchKMeans_ | **264487.25** |
 
 ---
