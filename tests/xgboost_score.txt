@@ -1,0 +1,11 @@
+2024-10-07 14:16:15
+    XGBoost accuracy: 0.6567565964136868
+    Objective: binary:logistic
+    n_estimators: 100
+    Max depth: 3
+    Subsample: 0.9
+    Col sample by tree: 0.5
+    Random state: 42
+    Train score: 0.6572155328190005
+    Test score: 0.6567565964136868
+

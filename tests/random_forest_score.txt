@@ -1,0 +1,188 @@
+2024-10-07 02:52:52
+ Random Forest Accuracy: 0.6614285926167628
+
+2024-10-07 03:00:45
+ Random Forest Accuracy: 0.6511576168369844
+ n_estimators: 100
+ Max depth: 9
+ Random state: 42
+
+2024-10-07 03:04:21
+ Random Forest Accuracy: 0.6532488913278851
+ n_estimators: 100
+ Max depth: 9
+ Max features: 7
+ Random state: 42
+
+2024-10-07 03:08:25
+ Random Forest Accuracy: 0.6532488913278851
+ n_estimators: 100
+ Max depth: 20
+ Max features: 7
+ Random state: 42
+
+2024-10-07 03:09:58
+ Random Forest Accuracy: 0.6414057517464367
+ n_estimators: 10
+ Max depth: 20
+ Max features: 7
+ Random state: 42
+
+2024-10-07 03:10:52
+ Random Forest Accuracy: 0.6528336027765006
+ n_estimators: 10
+ Max depth: 9
+ Max features: 7
+ Random state: 42
+
+2024-10-07 03:11:50
+ Random Forest Accuracy: 0.6481393589724574
+ n_estimators: 10
+ Max depth: 9
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 03:12:45
+ Random Forest Accuracy: 0.6481393589724574
+ n_estimators: 10
+ Max depth: 9
+ Max features: log2
+ Random state: 42
+
+2024-10-07 03:13:21
+ Random Forest Accuracy: 0.6506014268128086
+ n_estimators: 10
+ Max depth: 9
+ Max features: 5
+ Random state: 42
+
+2024-10-07 03:14:36
+ Random Forest Accuracy: 0.6506014268128086
+ n_estimators: 10
+ Max depth: 9
+ Max features: 5
+ Random state: 42
+
+2024-10-07 03:16:13
+ Random Forest Accuracy: 0.6434451151684143
+ n_estimators: 10
+ Max depth: 9
+ Max features: 5
+ Random state: 42
+
+2024-10-07 03:16:37
+ Random Forest Accuracy: 0.634746303190306
+ n_estimators: 10
+ Max depth: 9
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 03:17:25
+ Random Forest Accuracy: 0.6481541907064355
+ n_estimators: 10
+ Max depth: 9
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 03:18:22
+ Random Forest Accuracy: 0.5991427257760705
+ n_estimators: 10
+ Max depth: 9
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 03:20:00
+ Random Forest Accuracy: 0.6004627501001142
+ n_estimators: 10
+ Max depth: 9
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 03:21:48
+ Random Forest Accuracy: 0.6003811755632351
+ n_estimators: 100
+ Max depth: 9
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 03:23:44
+ Random Forest Accuracy: 0.6511353692360173
+ n_estimators: 100
+ Max depth: 9
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 03:26:30
+ Random Forest Accuracy: 0.6499339987837978
+ n_estimators: 100
+ Max depth: 9
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 03:27:55
+ Random Forest Accuracy: 0.6520994319445886
+ n_estimators: 100
+ Max depth: 9
+ Max features: 5
+ Random state: 42
+
+2024-10-07 03:32:32
+ Random Forest Accuracy: 0.6517953813980393
+ n_estimators: 500
+ Max depth: 9
+ Max features: 5
+ Random state: 42
+
+2024-10-07 11:38:15
+ Random Forest Accuracy: 0.6520326891416875
+ n_estimators: 500
+ Max depth: 9
+ Max features: 5
+ Random state: 42
+
+2024-10-07 11:42:55
+ Random Forest Accuracy: 0.6517879655310502
+ n_estimators: 100
+ Max depth: 20
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 11:47:49
+ Random Forest Accuracy: 0.6620737730448066
+ n_estimators: 400
+ Max depth: 18
+ Max features: sqrt
+ Random state: 42
+
+2024-10-07 13:42:43
+    Random Forest Accuracy: 0.6621034365127627
+    Criterion: entropy
+    n_estimators: 400
+    Max depth: 18
+    Max features: sqrt
+    Random state: 42
+    Train Score: 0.7628918986396794
+    Test Score: 0.6621034365127627
+
+2024-10-07 14:41:15
+    Random Forest Accuracy: 0.6621034365127627
+    Criterion: entropy
+    n_estimators: 400
+    Max depth: 18
+    Max features: sqrt
+    Random state: 42
+    Train Score: 0.7628918986396794
+    Test Score: 0.6621034365127627
+    Comment (optional): 
+
+2024-10-07 14:41:56
+    Random Forest Accuracy: 0.6621034365127627
+    Criterion: entropy
+    n_estimators: 400
+    Max depth: 18
+    Max features: sqrt
+    Random state: 42
+    Train Score: 0.7628918986396794
+    Test Score: 0.6621034365127627
+    Comment (optional): Test (jenn) 
+

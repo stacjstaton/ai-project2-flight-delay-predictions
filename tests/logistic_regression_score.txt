@@ -1,0 +1,8 @@
+2024-10-07 14:48:55
+    Logistic regression accuracy: 0.5731871913145365
+    Train score: 0.5724667953734763
+    Test score: 0.5731871913145365
+    Max iterations: 1000
+    Random state: 42
+    Comment (optional):
+

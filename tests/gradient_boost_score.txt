@@ -1,0 +1,5 @@
+2024-10-07 14:26:51
+    Gradient Boost accuracy: 0.6475312578793587
+    Train score: 0.6476267930992715
+    Test score: 0.6475312578793587
+
