@@ -1,7 +1,7 @@
 # ai-project2-flight-delay-predictions
 
 [todo - add project summary here]
- 
+
 ## Dataset Documentation
 
 This dataset is from Kaggle. [Airlines Dataset to predict a delay](https://www.kaggle.com/datasets/jimschacko/airlines-dataset-to-predict-a-delay)
@@ -20,7 +20,7 @@ This dataset is from Kaggle. [Airlines Dataset to predict a delay](https://www.k
 
 #### Airline Codes
 
-The `Airline` column includes two letters to specify the airline. 
+The `Airline` column includes two letters to specify the airline.
 
 - Alaska Airlines: AS / ASA
 - American Airlines: AA/AAL
@@ -83,3 +83,37 @@ The `AirportFrom` and `AirportTo` columns use three-letter codes to abbreviate t
 - SMF - Sacramento International Airport - California
 - STL - St. Louis Lambert International Airport - Missouri
 - TPA - Tampa International Airport - Florida
+
+# KMeans Steps and Processing
+
+### Step 1: Original Dataset
+
+Used the original dataset to go through the process of using the elbow method to find the best value for k. Used the k value to create and score KMeans model.
+
+### Step 2: Scaled Dataset
+
+Scaled the dataset using StandardScaler(). Once scaled, find the best value for k, and use the k-value to create and score KMeans model.
+
+### Step 3: Random Undersample Dataset
+
+Used RandomUndersampling because of the imbalance of our dataset.
+
+# KMeans Scaling & Scoring
+
+| Model             | Description                               |
+| ----------------- | ----------------------------------------- |
+| Model 1 (Scaling) | StandardScaler()                          |
+| Model 1 (Scoring) | Calinski_harabasz_score, Silhouette_score |
+| Model 2 (Scaling) | StandardScaler(), MinMaxScaler()          |
+| Model 2 (scoring) | Calinski_harabasz_score, Silhouette_score |
+
+# KMeans Scoring Results
+
+| Model                                                     | Description                        |
+| --------------------------------------------------------- | ---------------------------------- |
+| Model 1 - Original - (Calinski_harabasz_score)            | Train: 663289.95 / Test: 220753.49 |
+| Model 1 - Original - (Silhouette_score)                   | ####                               |
+| Model 2 - Scaled - (Calinski_harabasz_score)              | Train: 56106.58 / Test: 18715.40   |
+| Model 2 - Scaled - (Silhouette_score)                     | ####                               |
+| Model 2 - Random Undersampled - (Calinski_harabasz_score) | Train: 308578.14 / Test: 116584.11 |
+| Model 2 - Random Undersampled (Silhouette_score)          | ####                               |
