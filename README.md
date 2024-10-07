@@ -115,3 +115,30 @@ Used RandomUndersampling because of the imbalance of our dataset.
 | Model 2 - Scaled - (Silhouette_score)                     | 0.13                               |
 | Model 2 - Random Undersampled - (Calinski_harabasz_score) | Train: 50339.99 / Test: 36084.42   |
 | Model 2 - Random Undersampled (Silhouette_score)          | 0.44                               |
+
+## KMeans Model Optimization
+
+1. Create `AirportRoute` Column
+2. Encode `AirportFrom`, `AirportTo`, `AirportRoute` Column Using `LabelEncoder`
+3. Feature Selection
+4. Scale Using MinMaxScaler()
+5. Fit KMeans and Use the Elbow Method
+6. Evaluate Clustering Quality Using Silhouette Analysis
+
+---
+
+# Model Optimization With PCA
+
+1. Scale Data Using StandardScaler()
+2. Apply PCA To Reduce To Two Dimensions
+3. Calculate the WCSS
+4. Silhouette Analysis
+
+# Hyperparameter Tuning
+
+1. Tune init method using kmeans ++
+2. Optimize max_iter and Set n_init
+3. Use MiniBatchKMeans
+4. Evaluate & Interpret Results
+
+---
