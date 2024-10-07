@@ -110,8 +110,8 @@ Used RandomUndersampling because of the imbalance of our dataset.
 | Model                                                     | Description                        |
 | --------------------------------------------------------- | ---------------------------------- |
 | Model 1 - Original - (Calinski_harabasz_score)            | Train: 663289.95 / Test: 220753.49 |
-| Model 1 - Original - (Silhouette_score)                   | ####                               |
+| Model 1 - Original - (Silhouette_score)                   | 0.53                               |
 | Model 2 - Scaled - (Calinski_harabasz_score)              | Train: 56106.58 / Test: 18715.40   |
-| Model 2 - Scaled - (Silhouette_score)                     | ####                               |
+| Model 2 - Scaled - (Silhouette_score)                     | 0.13                               |
 | Model 2 - Random Undersampled - (Calinski_harabasz_score) | Train: 308578.14 / Test: 116584.11 |
-| Model 2 - Random Undersampled (Silhouette_score)          | ####                               |
+| Model 2 - Random Undersampled (Silhouette_score)          | 0.44                               |
