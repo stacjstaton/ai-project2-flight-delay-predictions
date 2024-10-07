@@ -1,0 +1,15 @@
+2024-10-07 16:55:11
+    Decision Tree Original Accuracy: 0.6378609673256901
+    Decision Tree Mean Absolute Error: 0.36213903267430997
+    Decision Tree Optimized accuracy: 0.6046452990819157
+
+2024-10-07 16:59:46
+    Decision Tree Original Accuracy: 0.6378609673256901
+    Decision Tree Mean Absolute Error: 0.36213903267430997
+    Decision Tree Optimized Accuracy: 0.6222505673138247
+
+2024-10-07 17:01:12
+    Decision Tree Original Accuracy: 0.6378609673256901
+    Decision Tree Mean Absolute Error: 0.36213903267430997
+    Decision Tree Optimized Accuracy: 0.6208341367189238
+
