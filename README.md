@@ -100,8 +100,8 @@ Used RandomUndersampling because of the imbalance of our dataset.
 
 # KMeans Scaling & Scoring
 
-**Model 1 (Scaling)**: StandardScaler()
-**Model 1 (Scoring)**: Calinski_harabasz_score, Silhouette_score
+**Model 1 (Scaling)**: StandardScaler()  
+**Model 1 (Scoring)**: Calinski_harabasz_score, Silhouette_score  
 **Model 2 (Scaling)**: StandardScaler(), MinMaxScaler()  
 **Model 2 (Scoring)**: Calinski_harabasz_score, Silhouette_score
 
