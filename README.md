@@ -132,3 +132,7 @@ The `AirportFrom` and `AirportTo` columns use three-letter codes to abbreviate t
 * SMF - Sacramento International Airport - California
 * STL - St. Louis Lambert International Airport - Missouri
 * TPA - Tampa International Airport - Florida
+
+## Datamodel Documentation
+
+* [Decision Tree](/README_DecisionTreeModel.md)
