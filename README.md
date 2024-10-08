@@ -133,6 +133,6 @@ The `AirportFrom` and `AirportTo` columns use three-letter codes to abbreviate t
 * STL - St. Louis Lambert International Airport - Missouri
 * TPA - Tampa International Airport - Florida
 
-## Dataset Documentation
+## Datamodel Documentation
 
 * [Decision Tree](/README_DecisionTreeModel.md)
